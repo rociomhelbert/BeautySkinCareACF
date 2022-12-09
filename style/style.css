@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-image: url(../img/fondo\ pagina.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-bottom: 1px solid  rgb(203, 174, 171);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+
+}
+
+
+li {
+    list-style: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 10px;
+    transition: all .2s linear;
+    border-radius: 10px;
+}
+
+li:hover {
+    background-color: rgb(203, 174, 171);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(30, 15, 58);
+    padding: 30px;
+}
+
+.card p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-display: block;
+}
+
+.card h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(45, 2, 36);
+}
+
+.card {
+    width: calc(100%/3);
+    padding: 0.5px;
+    gap: 1rem;
+    border: rgb(175, 121, 116);
+    border-bottom-left-radius: 20px;
+    background-color: rgb(196, 168, 188);
+    margin: 0.5rem;
+
+}
+
+
+
+.imagen {
+    width: 90%;
+}
+
+.imagen img {
+    width: 80%;
+    border: rgb(175, 121, 116);
+    border-radius: 20px;
+    background-color: darkgrey;
+}
+
+.card {
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    margin-left: 50px;
+
+}
+
+footer {
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 1px;
+    margin-left: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 0%;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    margin-block-end: 5px;
+}
+
+.descripcion {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(30, 15, 58);
+    padding: 30px;
+}
+
+.terminosycondiciones {
+    display: grid;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.subtitulospag {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(30, 15, 58);
+    padding: 30px;
+}
+
+.skintest {
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 1px;
+    margin-left: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(106, 52, 100);
+    padding: 0%;
+    text-align: center;
+
+}
+
+.skintest img {
+    margin-left: 40px;
+    display: center;
+    width: 80%;
+    margin-left: 50px;
+    padding: 50px;
+    
+}
+
+.mapaderetiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
